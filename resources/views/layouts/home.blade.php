@@ -19,7 +19,7 @@
 <body class="antialiased">
     @include('partials.navbar')
 
-    <div class="container">
+    <div id="container">
         @yield('container')
     </div>
 </body>

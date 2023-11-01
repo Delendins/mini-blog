@@ -56,7 +56,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-1 flex justify-center">
+                    <div class="col-span-1 flex justify-end">
                         <img class="rounded-lg shadow-lg" src="https://source.unsplash.com/random/300x500" alt="">
                     </div>
                 </div>
