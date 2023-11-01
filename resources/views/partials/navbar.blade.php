@@ -1,4 +1,4 @@
-<nav class="py-3 bg-slate-800 text-white sticky top-0">
+<nav class="py-3 bg-slate-800 text-white sticky top-0 z-50">
     <div>
         <div class="flex flex-cols-3 gap-4 place-content-around">
             <a href="">
@@ -14,13 +14,19 @@
             <div class="flex justify-center items-center">
                 <ul class="flex gap-4">
                     <a href="/">
-                        <li class="px-5 py-2 rounded-lg hover:bg-slate-900 transition">Home</li>
+                        <li
+                            class="px-5 py-2 rounded-lg hover:bg-slate-900 transition {{ $title === 'Home' ? 'active' : '' }}">
+                            Home</li>
                     </a>
                     <a href="/about">
-                        <li class="px-5 py-2 rounded-lg hover:bg-slate-900 transition">About</li>
+                        <li
+                            class="px-5 py-2 rounded-lg hover:bg-slate-900 transition {{ $title === 'About' ? 'active' : '' }}">
+                            About</li>
                     </a>
                     <a href="/blog">
-                        <li class="px-5 py-2 rounded-lg hover:bg-slate-900 transition">Blog</li>
+                        <li
+                            class="px-5 py-2 rounded-lg hover:bg-slate-900 transition {{ $title === 'Blog' ? 'active' : '' }}">
+                            Blog</li>
                     </a>
                 </ul>
             </div>
