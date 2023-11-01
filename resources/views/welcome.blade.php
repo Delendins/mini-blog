@@ -8,7 +8,6 @@
 </head>
 
 <body>
-    @include('partials.navbar')
     <h1 class="text-3xl font-bold underline">
         Hello dunia! <br>
         Hello dunia! <br>
