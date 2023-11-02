@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Navbar */
+.active {
+    position: relative;
+}
+
+.active::before,
+.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    background-color: white;
+}
+
+.active::before {
+    left: 0;
+}
+
+.active::after {
+    right: 0;
+}
+/* Navbar */
+
+/* About */
+.bg-image {
+    background-image: url(../../public/images/about/about-image-background.jpg);
+}
+/* About */
