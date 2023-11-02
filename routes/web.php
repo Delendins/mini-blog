@@ -15,13 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('layouts.main', [
-        'title' => 'Home'
-    ]);
-});
-
-Route::get('/about', function () {
-    return view('about',[
-        'title' => 'About'
+        "title" => "Home"
     ]);
 });
 Route::get('/blogs', function() {
