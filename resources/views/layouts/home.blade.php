@@ -19,7 +19,7 @@
 <body class="antialiased">
     @include('partials.navbar')
 
-    <div id="container">
+    <div class="container mx-auto">
         @yield('container')
     </div>
 </body>
