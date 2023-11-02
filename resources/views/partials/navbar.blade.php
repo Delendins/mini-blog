@@ -23,7 +23,7 @@
                             class="px-5 py-2 rounded-lg hover:bg-slate-900 transition {{ $title === 'About' ? 'active' : '' }}">
                             About</li>
                     </a>
-                    <a href="/blog">
+                    <a href="/blogs">
                         <li
                             class="px-5 py-2 rounded-lg hover:bg-slate-900 transition {{ $title === 'Blog' ? 'active' : '' }}">
                             Blog</li>

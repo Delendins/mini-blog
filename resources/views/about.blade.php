@@ -1,4 +1,4 @@
-@extends('layouts.home')
+@extends('layouts.main')
 
 @section('container')
     <div class="wrapper bg-slate-200">

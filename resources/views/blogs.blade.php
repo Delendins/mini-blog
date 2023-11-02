@@ -1,4 +1,4 @@
-@extends('layouts.main');
+@extends('layouts.main')
 
 @section('container')
   <div class="bg-white py-24 sm:py-12">
