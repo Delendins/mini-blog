@@ -1,10 +1,10 @@
-<nav class="py-3 bg-slate-800 text-white sticky top-0 z-50">
+<nav class="py-3 bg-slate-800 text-white sticky top-0 z-50 shadow-lg">
     <div>
         <div class="flex flex-cols-3 gap-4 place-content-around">
             <a href="">
                 <div class="flex justify-center items-center gap-3">
                     <img class="rounded-full w-10 h-10"
-                        src="https://plus.unsplash.com/premium_photo-1666900440561-94dcb6865554?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tfGVufDB8fDB8fHww"
+                        src="https://source.unsplash.com/random/100x100"
                         alt="">
                     <div class="flex align-middle">
                         <h1>MINI-BLOG</h1>
