@@ -25,7 +25,7 @@
                     </a>
                     <a href="/blogs">
                         <li
-                            class="px-5 py-2 rounded-lg hover:bg-slate-900 transition {{ $title === 'Blog' ? 'active' : '' }}">
+                            class="px-5 py-2 rounded-lg hover:bg-slate-900 transition {{ $title === 'Blogs' ? 'active' : '' }}">
                             Blog</li>
                     </a>
                 </ul>

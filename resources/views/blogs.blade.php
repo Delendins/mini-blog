@@ -11,7 +11,7 @@
         @foreach ( $blogs as $blog )
         <article class="flex max-w-xl flex-col items-start justify-between">
           <div class="relative py-7">
-            <img class="rounded-lg" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="">
+            <img class="rounded-lg shadow-lg " src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="">
           </div>
           <div class="flex items-center gap-x-4 text-xs">
             <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
