@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Mini-Blog | {{ $title }} </title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -13,10 +13,10 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body class="antialiased">
+    <body class="">
         @include('partials.navbar')
         
-        <div class="container">
+        <div class="container mx-auto">
             @yield('container')
         </div>
     </body>
