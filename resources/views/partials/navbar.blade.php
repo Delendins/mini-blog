@@ -4,7 +4,7 @@
             <a href="">
                 <div class="flex justify-center items-center gap-3">
                     <img class="rounded-full w-10 h-10"
-                        src="https://source.unsplash.com/random/100x100"
+                        src="https://images.unsplash.com/flagged/photo-1562599838-8cc871c241a5?auto=format&fit=crop&q=80&w=1780&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="">
                     <div class="flex align-middle">
                         <h1>MINI-BLOG</h1>

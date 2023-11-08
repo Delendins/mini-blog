@@ -27,7 +27,25 @@
 /* Navbar */
 
 /* About */
-.bg-image {
-    background-image: url(../../public/images/about/about-image-background.jpg);
+/* Card */
+.splide__arrow--prev {
+    left: -1em !important;
 }
+
+.splide__arrow--next {
+    right: -1em !important;
+}
+
+.splide__arrow {
+    background-color: rgb(30 41 59) !important;
+}
+
+.splide__arrow svg {
+    fill: white !important;
+}
+
+.splide__pagination__page.is-active {
+    background: rgb(30 41 59) !important;
+}
+/* Card */
 /* About */
